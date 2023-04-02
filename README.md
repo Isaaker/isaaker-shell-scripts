@@ -10,9 +10,9 @@ In this repository you can find some of the shell scripts I have created, most o
 
 ## Avaible Scripts:
 
-| Name | Description | README file | SCRIPT file |
-|--|--|--|--|
-| Inotify Bourne Shell Trigger | Small script to control changes in files and folders and copy these to another directory using inotify | None | None |
+| Name | Description | README file | SCRIPT file | Root folder |
+|--|--|--|--|--|
+| Inotify Bourne Shell Trigger | Small script to control changes in files and folders and copy these to another directory using inotify | [Readme](https://github.com/Isaaker/isaaker-shell-scripts/blob/main/inotify-bourne-shell-script/readme.md) | [Script](https://github.com/Isaaker/isaaker-shell-scripts/blob/main/inotify-bourne-shell-script/script.sh) | [GitHub Folder](https://github.com/Isaaker/isaaker-shell-scripts/tree/main/inotify-bourne-shell-script) |
 
 
 ## License:
