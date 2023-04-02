@@ -47,5 +47,3 @@ This script is created by Isaaker
 See the license [here](https://github.com/Isaaker/isaaker-shell-scripts/blob/main/LICENSE.txt)
 
 See the font code at: https://github.com/Isaaker/isaaker-shell-scripts
-
-See the license at: https://github.com/Isaaker/isaaker-shell-scripts/blob/main/LICENSE.txt
