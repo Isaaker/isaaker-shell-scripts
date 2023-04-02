@@ -5,6 +5,7 @@
 This script exists to help you with the installation of ianseo, a software for the control of archery competitions. The software installs the modules and packages necessary for the correct functioning of the web server and database.
 
 **The script needs you to have downloaded the ZIP with the ianseo software before running it, this is to ensure that you get the latest version of ianseo**
+**This script has been developed independently and without any help from ianseo developers**
 
 ## Download the Script
 
