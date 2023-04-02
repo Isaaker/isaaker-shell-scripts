@@ -26,7 +26,7 @@ Or
 
 ```
 zsh script.sh
-
+```
 
 
 ## License:
