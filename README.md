@@ -15,6 +15,18 @@ In this repository you can find some of the shell scripts I have created, most o
 | Inotify Bourne Shell Trigger | Small script to control changes in files and folders and copy these to another directory using inotify | [Readme](https://github.com/Isaaker/isaaker-shell-scripts/blob/main/inotify-bourne-shell-script/readme.md) | [Script](https://github.com/Isaaker/isaaker-shell-scripts/blob/main/inotify-bourne-shell-script/script.sh) | [GitHub Folder](https://github.com/Isaaker/isaaker-shell-scripts/tree/main/inotify-bourne-shell-script) |
 | Ianseo Installer | Script to help you install ianseo and requeired packages | [Readme](https://github.com/Isaaker/isaaker-shell-scripts/tree/main/ianseo-installer/readme.md) | [Script](https://github.com/Isaaker/isaaker-shell-scripts/tree/main/ianseo-installer/script.sh) | [GitHub Folder](https://github.com/Isaaker/isaaker-shell-scripts/tree/main/ianseo-installer) |
 
+## Run the commands:
+
+To run the scripts of this repo you can use:
+```
+bash script.sh
+```
+
+Or
+
+```
+zsh script.sh
+
 
 
 ## License:
