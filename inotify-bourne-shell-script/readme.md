@@ -16,6 +16,7 @@ This script is intended to control the changes in a directory using inotify, and
 
 1. Download the script using the button in the download the script section
 2. Custom the filepaths of the script to works with your paths
+3. Run the script
                                               
 ### Background
 
