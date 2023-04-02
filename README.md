@@ -11,7 +11,9 @@ In this repository you can find some of the shell scripts I have created, most o
 ## Avaible Scripts:
 
 | Category | Readme | Script | Compatibility |
+
 | -- | -- | -- |
+
 |Tool|[README](https://example.org)| [README](https://example.org) | Linux and MacOS |
 
 
