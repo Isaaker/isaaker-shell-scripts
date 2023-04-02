@@ -22,12 +22,6 @@ To run the scripts of this repo you can use:
 bash script.sh
 ```
 
-Or
-
-```
-zsh script.sh
-```
-
 
 ## License:
 The code is under Creative Commons Attribution-ShareAlike 4.0 International Public License, view the license at: https://github.com/Isaaker/isaaker-shell-scripts/blob/main/LICENSE.txt
