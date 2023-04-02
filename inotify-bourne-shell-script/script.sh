@@ -2,8 +2,8 @@
 while true
 do
         #Inotify Trigger
-        inotifywait -r --exclude "(swp|swx)"  -e modify,create,attrib,close_write,move,delete /home/pi/Lab1/monitor
+        inotifywait -r --exclude "(swp|swx)"  -e modify,create,attrib,close_write,move,delete /your/custom/path
         #Script before Inotify
-        sudo rm -r /var/www/monitor
-        sudo cp -r /home/pi/Lab1/monitor /var/www
+        sudo rm -r /your/custom/path
+        sudo cp -r /your/custom/path /your/custom/path
 done
