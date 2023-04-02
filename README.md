@@ -14,7 +14,7 @@ In this repository you can find some of the shell scripts I have created, most o
 
 | -- | -- | -- |
 
-|Tool|[README](https://example.org)| [README](https://example.org) | Linux and MacOS |
+| Tool | [README](https://example.org) | [README](https://example.org) | Linux and MacOS |
 
 
 ## License:
