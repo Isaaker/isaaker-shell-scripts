@@ -2,6 +2,10 @@
 
 ## About the Script
 
+This script is intended to control the changes in a directory using inotify, and after these changes execute a series of commands to copy those changes in the files of another directory
+
+**This script requires inotify to be installed**
+
 ## Download the Script
 
 [Download Script](https://github.com/13942346-5be9-4d7e-acb0-1fa57dab1f1d)
@@ -38,6 +42,8 @@ And Kill it with (Replace ID with the Trigger ID):
 ## Font code and LICENSE
 
 This script is created by Isaaker
+
+See the license [here](https://github.com/Isaaker/isaaker-shell-scripts/blob/main/LICENSE.txt)
 
 See the font code at: https://github.com/Isaaker/isaaker-shell-scripts
 
