@@ -1,4 +1,10 @@
+#Ianseo Installer
+#By: Isaaker
+#WARNING: Only works on Linux
+#You can use it with:
 #/bin/bash
+#/bin/zsh
+
 echo Welcome to Ianseo Installer, Bourne Shell program created by: Isaaker
 echo See the license at: https://github.com/Isaaker/isaaker-shell-scripts/blob/main/LICENSE.txt
 echo WARNING: Please make sure you are running the program as sudo
@@ -6,23 +12,19 @@ echo WARNING: Please do not stop the program once it has started
 
 sleep 5
 
+#Installing packages
 echo 
 echo Installing the required packages...
-apt-get install apache2
-apt-get install mysql-server
-apt-get install mysql-client
-apt-get install php
-apt-get install php-mysql
-apt-get install php-gd
-apt-get install php-curl
-apt-get install php-mbstring
-apt-get install php-mcrypt
-apt-get install php-xml
-apt-get install php-zip
-apt-get install imagemagick
-apt-get install php-imagick
-apt-get install unzip
-apt-get install libapache2-mod-php
+PACKAGES="apache2 mysql-server mysql-client php php-mysqli php-gd php-curl php-mbstring php-mcrypt php-xml php-zip imagemagick php-imagick unzip libapache2-mod-php"
+
+for package in $PACKAGES
+do
+    if ! dpkg -s $package >/dev/null 2>&1; then
+        # Si el paquete no está instalado, lo instalamos
+        sudo apt-get -y install $package
+    fi
+done
+
 
 echo Packages sucesfully installed
 
