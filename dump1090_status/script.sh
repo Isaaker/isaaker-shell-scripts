@@ -17,6 +17,7 @@ systemctl restart dump1090-fa.service
 systemctl restart rbfeeder.service
 systemctl restart fr24feed.service
 systemctl restart piaware.service
+systemctl restart adsbexchange-feed.service
 
 exit 1
 fi
@@ -44,6 +45,7 @@ systemctl restart dump1090-fa.service
 systemctl restart rbfeeder.service
 systemctl restart fr24feed.service
 systemctl restart piaware.service
+systemctl restart adsbexchange-feed.service
 
 exit 1
 fi
