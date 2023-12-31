@@ -8,9 +8,9 @@ Install with: ```sudo apt install jq```
 
 ## About
 
-This program checks if dump1090 is running correctly by checking if there is still output of the decoded data, this can be seen in /run/dump1090-fa/aircraft.json and if aircarfts is empty we will know that dump1090 is not generating output.
+The program checks if the aircraft tracking files exist, otherwise they have been deleted by dump1090-fa when the execution was aborted due to an error.
 
-This is achieved through jQuery by checking the string named aircraft within the aircraft file being tracked.
+If the file exists, it is checked if it contains any aircraft in tracking in its .aircrafts attribute and if not, it is interpreted as dump1090-fa is not reading the data correctly and proceeds to restart it and the feeders in case any of them crashes during the restart of dump1090.
 
 ## Compatiblity
 
