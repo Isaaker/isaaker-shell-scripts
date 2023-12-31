@@ -2,6 +2,7 @@
 # Created by: Isaaker
 # Font Code: https://github.com/Isaaker/isaaker-shell-scripts/new/main/dump1090_status
 # License: https://github.com/Isaaker/isaaker-shell-scripts/blob/main/LICENSE.txt
+# RUN AS SUDO
 
 if jq '.aircraft | length > 0' /run/dump1090-fa/aircraft.json; then
 #Wall
