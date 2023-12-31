@@ -2,7 +2,7 @@
 
 **You need to have JQuery installed**
 
-Install with: ```apt install jq```
+Install with: ```sudo apt install jq```
 
 ## About
 
