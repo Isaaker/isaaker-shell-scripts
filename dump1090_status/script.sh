@@ -6,7 +6,7 @@
 
 # Check services running
 # Check Dump1090
-if [systemctl is-active dump1090-fa.service -ne "active"]; then
+if [ "$(systemctl is-active dump1090-fa.service)" != "active" ]; then
 #Wall
 wall "[$(date +"%d-%m-%Y %H:%M:%S")] Dump1090 stopped running, restarting services. Checked by: Method 1 - Systemctl"
 
@@ -25,7 +25,7 @@ fi
 
 # Check Radarbox Feeder
 
-if [systemctl is-active rbfeeder.service -ne "active"]; then
+if [ "$(systemctl is-active rbfeeder.service)" != "active" ]; then
 #Wall
 wall "[$(date +"%d-%m-%Y %H:%M:%S")] Radarbox Feeder stopped running, restarting service. Checked by: Method 1 - Systemctl"
 
@@ -39,7 +39,7 @@ fi
 
 # Check FlightRadar24 Feeder
 
-if [systemctl is-active fr24feed.service -ne "active"]; then
+if [ "$(systemctl is-active fr24feed.service)" != "active" ]; then
 #Wall
 wall "[$(date +"%d-%m-%Y %H:%M:%S")] FlightRadar24 Feeder stopped running, restarting service. Checked by: Method 1 - Systemctl"
 
@@ -53,7 +53,7 @@ fi
 
 # Check Piaware Feeder
 
-if [systemctl is-active piaware.service -ne "active"]; then
+if [ "$(systemctl is-active piaware.service)" != "active" ]; then
 #Wall
 wall "[$(date +"%d-%m-%Y %H:%M:%S")] PiAware Feeder stopped running, restarting service. Checked by: Method 1 - Systemctl"
 
@@ -67,7 +67,7 @@ fi
 
 # Check ADS-B Exchange Feeder
 
-if [systemctl is-active adsbexchange-feed.service -ne "active"]; then
+if [ "$(systemctl is-active adsbexchange-feed.service)" != "active" ]; then
 #Wall
 wall "[$(date +"%d-%m-%Y %H:%M:%S")] ADS-B Exchange Feeder stopped running, restarting service. Checked by: Method 1 - Systemctl"
 
