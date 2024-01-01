@@ -6,15 +6,15 @@
 
 # Check services running
 # Check Radarbox feeder
-#systemctl is-active dump1090-fa.service
+if systemctl is-active dump1090-fa.service 
 
 # Check aircraft file exist
 if [ ! -f /run/dump1090-fa/aircraft.json ]; then
 #Wall
-wall "[$(date +"%d-%m-%Y %H:%M:%S")] Dump1090 stopped running, restarting services"
+wall "[$(date +"%d-%m-%Y %H:%M:%S")] Dump1090 stopped running, restarting services. Checked by: Method 2 - /run/dump1090-fa/aircraft.json file didn't exist"
 
 #Log
-sudo echo "[$(date +"%d-%m-%Y %H:%M:%S")] Dump1090 stopped running" >> /var/log/dump1090_restart_log.txt
+sudo echo "[$(date +"%d-%m-%Y %H:%M:%S")] Dump1090 stopped running. Checked by: Method 2 - /run/dump1090-fa/aircraft.json file didn't exist" >> /var/log/dump1090_restart_log.txt
 
 #Restarting Services
 systemctl restart dump1090-fa.service
