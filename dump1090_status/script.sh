@@ -4,7 +4,11 @@
 # License: https://github.com/Isaaker/isaaker-shell-scripts/blob/main/LICENSE.txt
 # RUN AS SUDO
 
-# check aircraft file exist
+# Check services running
+# Check Radarbox feeder
+#systemctl is-active dump1090-fa.service
+
+# Check aircraft file exist
 if [ ! -f /run/dump1090-fa/aircraft.json ]; then
 #Wall
 wall "[$(date +"%d-%m-%Y %H:%M:%S")] Dump1090 stopped running, restarting services"
